@@ -162,10 +162,6 @@ body {
   transform-origin: center;
 }
 
-@media (max-width: 900px) {
-  .customer-illustration { display: none; }
-}
-
 /* ── Customer Card ─────────────────────────────────────────────────────────── */
 .card {
   background: var(--bg-card);
@@ -539,8 +535,60 @@ body {
 
 /* ── Responsive ────────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
-  .main { padding: 20px 16px; }
-  .card { padding: 24px; }
+  /* Header */
+  .header {
+    height: auto;
+    padding: 10px 16px;
+  }
+  .header-inner {
+    grid-template-columns: 1fr auto;
+  }
+  .header-tagline {
+    display: none;
+  }
+  .logo-img {
+    height: 72px;
+  }
+
+  /* Main */
+  .main {
+    padding: 16px;
+    overflow: visible;
+    align-items: flex-start;
+  }
+
+  /* Customer layout — stack vertically */
+  .customer-layout {
+    flex-direction: column;
+    align-items: center;
+    transform: none;
+    gap: 16px;
+    width: 100%;
+  }
+  .customer-illustration {
+    display: flex;
+    transform: none;
+    max-height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-self: auto;
+  }
+  .customer-illustration img {
+    height: 180px;
+  }
+  .customer-form {
+    transform: none;
+    width: 100%;
+  }
+
+  /* Card */
+  .card {
+    padding: 24px 20px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /* Admin */
   .stats-row { grid-template-columns: repeat(3, 1fr); gap: 10px; }
   .stat-card { padding: 14px; }
   .stat-number { font-size: 24px; }
