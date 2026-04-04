@@ -568,13 +568,13 @@ body {
   .customer-illustration {
     display: flex;
     transform: none;
-    max-height: 200px;
+    max-height: 280px;
     width: 100%;
     justify-content: center;
     align-self: auto;
   }
   .customer-illustration img {
-    height: 180px;
+    height: 260px;
   }
   .customer-form {
     transform: none;
