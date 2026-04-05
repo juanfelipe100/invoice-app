@@ -545,8 +545,9 @@ body {
 @media (max-width: 768px) {
   /* Header */
   .header {
-    height: auto;
-    padding: 4px 16px;
+    height: 64px;
+    padding: 0 16px;
+    overflow: visible;
   }
   .header-inner {
     grid-template-columns: 1fr auto;
