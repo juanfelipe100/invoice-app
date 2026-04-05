@@ -546,7 +546,7 @@ body {
   /* Header */
   .header {
     height: auto;
-    padding: 6px 16px;
+    padding: 4px 16px;
   }
   .header-inner {
     grid-template-columns: 1fr auto;
@@ -557,7 +557,7 @@ body {
     display: none;
   }
   .logo-img {
-    height: 52px;
+    height: 200px;
   }
 
   /* Main */
@@ -617,7 +617,7 @@ body {
     align-items: center;
   }
   .logo-img {
-    height: 48px;
+    height: 180px;
   }
 
   /* Form full width */
