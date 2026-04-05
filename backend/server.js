@@ -13,7 +13,7 @@ if (!fs.existsSync(UPLOADS_DIR)) fs.mkdirSync(UPLOADS_DIR);
 
 app.use(cors({
   origin: process.env.FRONTEND_URL || [
-    'http://localhost:5173',
+    'http://produccion.localhost:5173',
     'https://beautiful-chaja-e7fcff.netlify.app',
   ],
 }));
