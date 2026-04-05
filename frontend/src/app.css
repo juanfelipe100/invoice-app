@@ -545,7 +545,7 @@ body {
 @media (max-width: 768px) {
   /* Header */
   .header {
-    height: 64px;
+    height: 90px;
     padding: 0 16px;
     overflow: visible;
   }
