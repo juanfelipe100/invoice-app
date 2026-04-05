@@ -129,7 +129,10 @@ export default function CustomerPage() {
           <span className="step-line" />
           <span className="step">3</span>
         </div>
-        <h1 className="card-title">Sube tu factura</h1>
+        <h1 className="card-title">
+          Sube tu factura
+          <span className="card-title-accent">Comienza a ahorrar ahora</span>
+        </h1>
         <p className="card-subtitle">Registra tu factura y los datos de consumo.</p>
 
         <form onSubmit={handleTermsSubmit} className="form">
